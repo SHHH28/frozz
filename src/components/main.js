@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Container,Card,Row,Col } from "react-bootstrap";
+import { Container,Card } from "react-bootstrap";
 
 class Main extends Component{
 
