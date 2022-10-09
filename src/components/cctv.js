@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function J_CCTV() {
+function Jcctv() {
   return (
     <Carousel>
         <Carousel.Item>
@@ -34,4 +34,4 @@ function J_CCTV() {
   );
 }
 
-export default J_CCTV;
+export default Jcctv;

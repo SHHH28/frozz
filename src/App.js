@@ -4,9 +4,6 @@ import AddressMap from "./components/location_map";
 import Main from "./components/main";
 import Services from "./components/services";
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-    }
     render() {
         return (
             <>

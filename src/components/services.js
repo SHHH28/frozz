@@ -1,16 +1,11 @@
 import { Component } from "react";
 import { Container,Card, Stack } from "react-bootstrap";
-import J_Aircon from "./aircondition";
-import J_CCTV from "./cctv";
-import J_Maintenance from "./maintenance"
+import JAircon from "./aircondition";
+import Jcctv from "./cctv";
+import JMaintenance from "./maintenance"
 
 
 class Services extends Component{
-
-    constructor(props){
-        super(props);
-    }
-
     render(){
         return(
             <>
@@ -23,19 +18,19 @@ class Services extends Component{
                                     <Card.Body className="text-center">
                                         <Card.Title>Refrigeration and Air-Conditioning</Card.Title>
                                     </Card.Body>
-                                    <J_Aircon />
+                                    <JAircon />
                                 </Card>
                                 <Card style={{ width: '30rem' }} className="p-2">
                                     <Card.Body  className="text-center">
                                         <Card.Title>CCTV Installation</Card.Title>
                                     </Card.Body>
-                                    <J_CCTV />
+                                    <Jcctv />
                                 </Card>
                                 <Card style={{ width: '30rem' }} className="p-2">
                                     <Card.Body  className="text-center">
                                         <Card.Title>Maintenance Services</Card.Title>               
                                     </Card.Body>
-                                    <J_Maintenance />
+                                    <JMaintenance />
                                 </Card>
                             </Stack>
                             <Stack direction="horizontal" gap={3}>

@@ -2,11 +2,6 @@ import { Component } from "react";
 import { Container,Card } from "react-bootstrap";
 
 class Main extends Component{
-
-    constructor(props){
-        super(props);
-    }
-
     render(){
         return(
             <>

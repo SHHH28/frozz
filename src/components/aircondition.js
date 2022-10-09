@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function J_Aircon() {
+function JAircon() {
   return (
     <Carousel>
         <Carousel.Item>
@@ -43,4 +43,4 @@ function J_Aircon() {
   );
 }
 
-export default J_Aircon;
+export default JAircon;

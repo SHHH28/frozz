@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
-function J_Maintenance() {
+function JMaintenance() {
   return (
     <Carousel>
         <Carousel.Item>
@@ -52,4 +52,4 @@ function J_Maintenance() {
   );
 }
 
-export default J_Maintenance;
+export default JMaintenance;
