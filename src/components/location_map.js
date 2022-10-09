@@ -16,6 +16,7 @@ import { Container,Card } from 'react-bootstrap';
                                 allowfullscreen="" 
                                 aria-hidden="false" 
                                 tabindex="0"
+                                title='J-Frozz-Map'
                             >
                             </iframe>
                     </Card.Body>
