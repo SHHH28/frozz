@@ -1,0 +1,11 @@
+.logo{
+	background-color: white;
+}
+.remove-bullet{
+	list-style: none;
+}
+body{
+	background-image: url('../images/a35h8.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
