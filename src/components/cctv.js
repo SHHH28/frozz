@@ -5,27 +5,21 @@ function Jcctv() {
     <Carousel>
         <Carousel.Item>
             <img
-            className="d-block0"
-            width={500}
-            height={300}
+            className="d-block img-services"
             src={require('../assets/images/cctv.jpg')}
             alt="First slide"
             />
         </Carousel.Item>
         <Carousel.Item>
             <img
-            className="d-block"
-            width={500}
-            height={300}
+            className="d-block img-services"
             src={require('../assets/images/cctv_1.jpg')}
             alt="Second slide"
             />
         </Carousel.Item>
         {/* <Carousel.Item>
             <img
-            className="d-block"
-            width={500}
-            height={300}
+            className="d-block img-services"
             src={require('../assets/images/cctv_2.jpg')}
             alt="Third slide"
             />

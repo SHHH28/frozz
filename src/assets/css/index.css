@@ -9,3 +9,60 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.j-nav{
+	background-color: black;
+	width: 100%;
+}
+
+.navbar-expand .navbar-nav{
+	display: inline-flex;
+}
+.logo{
+	background-color: white;
+	width: 280px;
+	height: 60px;
+}
+.card-services{
+	width: 40rem;
+}
+.img-services{
+	width: 600px;
+	height: 200px;
+}
+
+
+
+@media only screen and (max-width: 450px){
+	.j-nav{
+		font-size: 10px;
+	}
+	.navbar-expand .navbar-nav{
+		display: block;
+	}
+	.logo{
+		width: 100px;
+		height: 60px;
+	}
+	.services{
+		display: block !important;
+	}
+	.card-services{
+		width: 20rem !important;
+	}
+	.img-services{
+		width: 320px !important;
+		height: 100px !important;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.navbar-expand .navbar-nav{
+		display: block;
+	}
+	.services{
+		display: block !important;
+	}
+}
+
+
+
+	

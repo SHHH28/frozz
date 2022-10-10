@@ -7,13 +7,11 @@ class App extends React.Component {
     render() {
         return (
             <>
-                <Navbar sticky="top" bg="dark" variant="dark" className="mb-3">
+                <Navbar sticky="top" variant="dark" className="mb-3 j-nav">
                     <Container>
                         <Navbar.Brand>
                             <img
                                 src={require('./assets/images/logo.png')}
-                                width="280"
-                                height="60"
                                 className="d-inline-block align-top logo"
                                 alt="React Bootstrap logo"
                             />
