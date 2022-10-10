@@ -9,10 +9,8 @@ import { Container,Card } from 'react-bootstrap';
                         <Card.Title>Location</Card.Title>
                             <iframe 
                                 src="https://maps.google.com/maps?q=j-frozz&t=&z=13&ie=UTF8&iwloc=&output=embed" 
-                                width={750} 
-                                height={450}
+                                className='mapa-ti-jfrozz'
                                 frameborder="0" 
-                                style={{border:0}} 
                                 allowfullscreen="" 
                                 aria-hidden="false" 
                                 tabindex="0"

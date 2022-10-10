@@ -29,6 +29,10 @@ body{
 	width: 600px;
 	height: 200px;
 }
+.mapa-ti-jfrozz{
+	width: 720px;
+	height: 300px;
+}
 
 
 
@@ -53,6 +57,10 @@ body{
 		width: 320px !important;
 		height: 100px !important;
 	}
+	.mapa-ti-jfrozz{
+		width: 300px !important;
+		height: 200px !important;
+	}
 }
 @media only screen and (max-width: 1000px) {
 	.navbar-expand .navbar-nav{
@@ -60,6 +68,10 @@ body{
 	}
 	.services{
 		display: block !important;
+	}
+	.mapa-ti-jfrozz{
+		width: 450px;
+		height: 200px;
 	}
 }
 
