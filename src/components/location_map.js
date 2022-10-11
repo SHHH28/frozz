@@ -4,7 +4,7 @@ import { Container,Card } from 'react-bootstrap';
     return (
         <Container>
             <div className="row justify-content-center">
-                <Card style={{ width: '800px' }}>
+                <Card style={{ width: '100%' }}>
                     <Card.Body className="text-center">
                         <Card.Title>Location</Card.Title>
                             <iframe 

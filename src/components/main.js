@@ -10,7 +10,7 @@ class Main extends Component{
                         <Card style={{ width: '30rem' }}>
                             <Card.Body className="text-center">
                                 <Card.Title>ABOUT US</Card.Title>
-                                <Card.Text >
+                                <Card.Text className="about-info">
                                     The company has been formed by a group of
                                     professionals having vivid experience and wide
                                     exposure in Civil, Electrical & Mechanical
