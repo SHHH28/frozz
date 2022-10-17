@@ -10,7 +10,7 @@ class Services extends Component{
         return(
             <>
                 <Container>
-                    <Card>
+                    <Card >
                         <Card.Body className="text-center">
                             <Card.Title>Our Services</Card.Title>                          
                             <Stack direction="horizontal" gap={3} className="services">
@@ -26,18 +26,13 @@ class Services extends Component{
                                     </Card.Body>
                                     <Jcctv />
                                 </Card>
+                            </Stack>
+                            <Stack direction="horizontal" gap={3} className="services">
                                 <Card className="p-2 card-services">
                                     <Card.Body  className="text-center">
                                         <Card.Title>Maintenance Services</Card.Title>               
                                     </Card.Body>
                                     <JMaintenance />
-                                </Card>
-                            </Stack>
-                            <Stack direction="horizontal" gap={3} className="services">
-                                <Card className="p-2 card-services">
-                                    <Card.Body className="text-center">
-                                        <Card.Title>Electrical Design and Installation (UPS)</Card.Title>                                  
-                                    </Card.Body>
                                 </Card>
                                 <Card className="p-2 card-services">
                                     <Card.Body  className="text-center">
