@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Container,Card, Stack, Carousel } from "react-bootstrap";
+import { Container,Card, Stack } from "react-bootstrap";
 
 class Main extends Component{
     render(){
