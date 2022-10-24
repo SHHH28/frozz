@@ -20,7 +20,7 @@ class Header extends Component{
                     </Nav>
                     <Nav>
                         <Nav.Link onClick={() => window.location = 'mailto:jfrozzengineering@gmail.com'}>jfrozzengineering@gmail.com</Nav.Link>
-                        <Nav.Link>
+                        <Nav.Link eventkey="disabled" disabled>
                                 044 324 3123 /
                                 0921 859 3770
                         </Nav.Link>
