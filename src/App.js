@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
+import Expertise from "./components/expertise";
 
 import SpinnerLoad from "./components/loading-spin";
 import AddressMap from "./components/location_map";
 import Main from "./components/main";
 import Header from "./components/navigation-bar";
+import RequestQuotes from "./components/request_quotes";
 import Services from "./components/services";
 
 class App extends React.Component {
@@ -11,11 +13,15 @@ class App extends React.Component {
         return (
             <>
                 <Header />
-                <Main />
+                <RequestQuotes />   
                     <br/>
                 <Services />
                     <br />
+                <Expertise />
+                    <br />
                 <AddressMap />
+                    <br />
+                <Main />
             </>
         );
     }

@@ -3,7 +3,6 @@ import { Container,Card } from 'react-bootstrap';
  const AddressMap=()=>{
     return (
         <Container>
-            <div className="row justify-content-center">
                 <Card style={{ width: '100%' }}>
                     <Card.Body className="text-center">
                         <Card.Title>Location</Card.Title>
@@ -19,7 +18,6 @@ import { Container,Card } from 'react-bootstrap';
                             </iframe>
                     </Card.Body>
                 </Card>
-            </div>
         </Container>
     );
  }

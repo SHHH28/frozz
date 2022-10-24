@@ -1,9 +1,5 @@
 import { Component } from "react";
 import { Container,Card, Stack } from "react-bootstrap";
-import JAircon from "./aircondition";
-import Jcctv from "./cctv";
-import JMaintenance from "./maintenance"
-
 
 class Services extends Component{
     render(){
@@ -16,63 +12,24 @@ class Services extends Component{
                             <Stack direction="horizontal" gap={3} className="services">
                                 <Card  className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>Refrigeration and Air-Conditioning</Card.Title>
+                                        <Card.Title>Design</Card.Title>
                                     </Card.Body>
-                                    <JAircon />
                                 </Card>
                                 <Card className="p-2 card-services">
                                     <Card.Body  className="text-center">
-                                        <Card.Title>CCTV Installation</Card.Title>
+                                        <Card.Title>Supply & Installation</Card.Title>
                                     </Card.Body>
-                                    <Jcctv />
                                 </Card>
                             </Stack>
                             <Stack direction="horizontal" gap={3} className="services">
                                 <Card className="p-2 card-services">
                                     <Card.Body  className="text-center">
-                                        <Card.Title>Maintenance Services</Card.Title>               
-                                    </Card.Body>
-                                    <JMaintenance />
-                                </Card>
-                                <Card className="p-2 card-services">
-                                    <Card.Body  className="text-center">
-                                        <Card.Title>Mechanical Design and Installation</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                            </Stack>
-                            <Stack direction="horizontal" gap={3} className="services">
-                                <Card className="p-2 card-services">
-                                    <Card.Body className="text-center">
-                                        <Card.Title>Civil and Structural Design and Installation</Card.Title>                                   
+                                        <Card.Title>Troubleshooting & Repair</Card.Title>               
                                     </Card.Body>
                                 </Card>
                                 <Card className="p-2 card-services">
                                     <Card.Body  className="text-center">
-                                        <Card.Title>PACU Design and Installation</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                            </Stack>
-                            <Stack direction="horizontal" gap={3} className="services">
-                                <Card className="p-2 card-services">
-                                    <Card.Body className="text-center">
-                                        <Card.Title>FDAS Design and Installation</Card.Title>                                   
-                                    </Card.Body>
-                                </Card>
-                                <Card className="p-2 card-services">
-                                    <Card.Body  className="text-center">
-                                        <Card.Title>Plumbing Design and Installation</Card.Title>
-                                    </Card.Body>
-                                </Card>
-                            </Stack>
-                            <Stack direction="horizontal" gap={3} className="services">
-                                <Card className="p-2 card-services">
-                                    <Card.Body className="text-center">
-                                        <Card.Title>Ducting Works</Card.Title>                                  
-                                    </Card.Body>
-                                </Card>
-                                <Card className="p-2 card-services">
-                                    <Card.Body className="text-center">
-                                        <Card.Title>Solar Electrical Power System</Card.Title>
+                                        <Card.Title>Cleaning & Preventive Maintenance</Card.Title>
                                     </Card.Body>
                                 </Card>
                             </Stack>

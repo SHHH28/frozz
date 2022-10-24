@@ -50,6 +50,23 @@ div.card-title{
 	left: 50%;
 	margin: -35px 0 0 -35px;
 }
+.asp45 > img{
+	width: 100%;
+	height: 400px;
+}
+.asp45 > .asp46{
+	width: 1295px;
+	position: absolute;
+	top: 40%;
+	font-size: 45px;
+	text-align: center;
+}
+.rqst404{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -25px 0 0 -85px;
+}
 
 
 
