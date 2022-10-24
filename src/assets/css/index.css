@@ -13,6 +13,9 @@ body {
 	background-color: rgb(241, 240, 240);
 	width: 100%;
 }
+.navbar-nav > a{
+	color: black !important;
+}
 
 .navbar-expand .navbar-nav{
 	display: inline-flex;
