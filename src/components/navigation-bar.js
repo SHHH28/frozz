@@ -23,7 +23,7 @@ class Header extends Component{
                         <Nav.Link eventkey="disabled" disabled>
                                 044 324 3123 /
                                 0921 859 3770
-                        </Nav.Link>
+                        </Nav.Link> 
                         <Nav.Link target="_blank" onClick={() => window.open('https://www.facebook.com/jfrozzengineers')}>
                             <img
                             src={require('../assets/images/fb-logo.png')}
