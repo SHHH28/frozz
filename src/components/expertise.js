@@ -13,7 +13,7 @@ class Expertise extends Component{
                             <Stack direction="horizontal" gap={3} className="services">
                                 <Card className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>
+                                        <Card.Title className="expertise-title-345e6">
                                             <h5>Refrigeration & Airconditioning</h5>
                                             <h6>Residential & Commercial Application</h6>
                                         </Card.Title>                                   
@@ -21,7 +21,7 @@ class Expertise extends Component{
                                 </Card>
                                 <Card className="p-2 card-services">
                                     <Card.Body  className="text-center">
-                                        <Card.Title>
+                                        <Card.Title className="expertise-title-345e6">
                                             <h5>Precision Airconditioning Unit</h5>
                                             <h6>Data Center Application</h6>
                                         </Card.Title>
@@ -31,7 +31,7 @@ class Expertise extends Component{
                                 <Stack direction="horizontal" gap={3} className="services">
                                 <Card className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>
+                                        <Card.Title className="expertise-title-345e6">
                                             <h5>Ventilation & Ducting Works</h5>
                                             <h6>Residential & Commercial Application</h6>
                                         </Card.Title>                                  
@@ -46,7 +46,7 @@ class Expertise extends Component{
                                 <Stack direction="horizontal" gap={3} className="services">
                                 <Card className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>
+                                        <Card.Title className="expertise-title-345e6">
                                             <h5>Electrical Works</h5>
                                             <h6>Residential & Commercial Application</h6>
                                         </Card.Title>                                 
@@ -54,7 +54,7 @@ class Expertise extends Component{
                                 </Card>
                                 <Card className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>
+                                        <Card.Title className="expertise-title-345e6">
                                             <h5>Solar Powered System</h5>
                                             <h6>Irrigation & Commercial Application</h6>
                                         </Card.Title>  

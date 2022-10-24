@@ -6,7 +6,7 @@ class Footer extends Component{
         return(
             <>
                 <Nav className="justify-content-center j-nav j-footer" >
-                    <Nav className="justify-content-center mb-5">
+                    <Nav className="justify-content-center">
                         <Nav.Link onClick={() => window.location = 'mailto:jfrozzengineering@gmail.com'}>jfrozzengineering@gmail.com</Nav.Link>
                         <Nav.Link eventkey="disabled" disabled>
                                 044 324 3123 /
@@ -22,7 +22,7 @@ class Footer extends Component{
                             />
                         </Nav.Link> 
                     </Nav>
-                    <p className="text-center a-res">©2022</p>
+                    {/* <p className="text-center a-res">©2022</p> */}
                 </Nav>
             </>
             

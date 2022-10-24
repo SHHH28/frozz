@@ -5,9 +5,9 @@ class Main extends Component{
     render(){
         return(
             <>
-                <Container>
+                <Container className="about-img">
                     <Stack direction="horizontal" gap={3}>
-                        <Card style={{ width: '40rem', height:'350px' }}>
+                        <Card style={{ width: '40rem', height:'100%' }}>
                             <Card.Body className="text-center">
                                 <Card.Title>ABOUT US</Card.Title>
                                 <Card.Text className="about-info">
@@ -35,7 +35,7 @@ class Main extends Component{
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                        <Card style={{ width: '40rem', height:'350px' }}>
+                        <Card  className="" style={{ width: '40rem', height:"340px"}}>
                             <Card.Body className="text-center">
                                 <img
                                     style={{ width: '100%', height:'100%' }}

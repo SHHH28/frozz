@@ -76,8 +76,6 @@ div.card-title{
 	font-size: 20px;
 }
 
-
-
 @media only screen and (max-width: 800px){
 	.j-nav{
 		font-size: 8px;
@@ -99,6 +97,12 @@ div.card-title{
 	.card-title, p.card-text{
 		font-size: 12px !important;
 	}
+	.expertise-title-345e6 > h5{
+		font-size: 12px;
+	}
+	.expertise-title-345e6 > h6 {
+		font-size: 10px;
+	}
 	.card-title{
 		height: 10px !important;
 		margin-bottom: 20px !important;
@@ -115,7 +119,10 @@ div.card-title{
 		position: relative;
 		margin: -10px 0 0 0;
 	}
-
+	.asp45 > img{
+		width: 100%;
+		height: 200px;
+	}
 }
 @media only screen and (max-width: 1000px) {
 	.navbar-expand .navbar-nav{
@@ -127,6 +134,41 @@ div.card-title{
 	.mapa-ti-jfrozz{
 		width: 100%;
 		height: 200px;
+	}
+	.asp45 > img{
+		width: 100%;
+		height: 200px;
+	}
+	.asp45 > .asp46{
+		width: 200px;
+		position: absolute;
+		top: 65%;
+		font-size: 15px;
+		text-align: center;
+	}
+	.rqst404{
+		position: absolute;
+		width: 100px;
+		font-size: 10px !important;
+		top: 50%;
+		left: 50%;
+		margin: 100px 0 0 -55px;
+	}
+	.j-footer > .nav > .nav-link{
+		color: black;
+	}
+	.a-res{
+		position: absolute;
+		margin: 40px 0 0 0;
+		font-size: 20px;
+	}
+	.about-img > .hstack{
+		display: block;
+		margin: 20px;
+	}
+	.about-img > .hstack > div {
+		width: 100% !important;
+		margin-top: 20px;
 	}
 }
 
