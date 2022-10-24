@@ -1,18 +1,15 @@
 import { Component } from "react";
-import { Container, Image, Button } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 
 
 class RequestQuotes extends Component{
     render(){
         return (
-            <Container className="asp45">
-                <Image 
-                  src={require('../assets/images/asp45.jpg')}>
-                </Image>
-                <div className="asp46">
-                    <p>Awan Pay tagline mweheheh</p>
+            <Container>
+                <div className="asp45">
+                    <p className="tag">Awan Pay tagline mweheheh</p>
+                    <Button className="rqst404">Request Quote</Button>
                 </div>
-                <Button className="rqst404">Request Quote</Button>
             </Container>
         );
     }
