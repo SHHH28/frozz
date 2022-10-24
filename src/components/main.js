@@ -1,13 +1,13 @@
 import { Component } from "react";
-import { Container,Card } from "react-bootstrap";
+import { Container,Card, Stack, Carousel } from "react-bootstrap";
 
 class Main extends Component{
     render(){
         return(
             <>
                 <Container>
-                    <div className="row justify-content-center">
-                        <Card style={{ width: '30rem' }}>
+                    <Stack direction="horizontal" gap={3}>
+                        <Card style={{ width: '40rem', height:'350px' }}>
                             <Card.Body className="text-center">
                                 <Card.Title>ABOUT US</Card.Title>
                                 <Card.Text className="about-info">
@@ -35,7 +35,17 @@ class Main extends Component{
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </div>
+                        <Card style={{ width: '40rem', height:'350px' }}>
+                            <Card.Body className="text-center">
+                                <img
+                                    style={{ width: '100%', height:'100%' }}
+                                    className="d-block"
+                                    src={require('../assets/images/cctv_1.jpg')}
+                                    alt="Second slide"
+                                />
+                            </Card.Body>
+                        </Card>
+                    </Stack>
                 </Container>
             </>
         );

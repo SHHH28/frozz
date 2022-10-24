@@ -13,36 +13,51 @@ class Expertise extends Component{
                             <Stack direction="horizontal" gap={3} className="services">
                                 <Card className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>Civil and Structural Design and Installation</Card.Title>                                   
+                                        <Card.Title>
+                                            <h5>Refrigeration & Airconditioning</h5>
+                                            <h6>Residential & Commercial Application</h6>
+                                        </Card.Title>                                   
                                     </Card.Body>
                                 </Card>
                                 <Card className="p-2 card-services">
                                     <Card.Body  className="text-center">
-                                        <Card.Title>PACU Design and Installation</Card.Title>
+                                        <Card.Title>
+                                            <h5>Precision Airconditioning Unit</h5>
+                                            <h6>Data Center Application</h6>
+                                        </Card.Title>
                                     </Card.Body>
                                 </Card>
                                 </Stack>
                                 <Stack direction="horizontal" gap={3} className="services">
                                 <Card className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>FDAS Design and Installation</Card.Title>                                   
+                                        <Card.Title>
+                                            <h5>Ventilation & Ducting Works</h5>
+                                            <h6>Residential & Commercial Application</h6>
+                                        </Card.Title>                                  
                                     </Card.Body>
                                 </Card>
                                 <Card className="p-2 card-services">
                                     <Card.Body  className="text-center">
-                                        <Card.Title>Plumbing Design and Installation</Card.Title>
+                                        <Card.Title>Fire Protection & FDAS</Card.Title>
                                     </Card.Body>
                                 </Card>
                                 </Stack>
                                 <Stack direction="horizontal" gap={3} className="services">
                                 <Card className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>Ducting Works</Card.Title>                                  
+                                        <Card.Title>
+                                            <h5>Electrical Works</h5>
+                                            <h6>Residential & Commercial Application</h6>
+                                        </Card.Title>                                 
                                     </Card.Body>
                                 </Card>
                                 <Card className="p-2 card-services">
                                     <Card.Body className="text-center">
-                                        <Card.Title>Solar Electrical Power System</Card.Title>
+                                        <Card.Title>
+                                            <h5>Solar Powered System</h5>
+                                            <h6>Irrigation & Commercial Application</h6>
+                                        </Card.Title>  
                                     </Card.Body>
                                 </Card>
                             </Stack>

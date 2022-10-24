@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Expertise from "./components/expertise";
+import Footer from "./components/footer";
 
 import SpinnerLoad from "./components/loading-spin";
 import AddressMap from "./components/location_map";
@@ -22,6 +23,8 @@ class App extends React.Component {
                 <AddressMap />
                     <br />
                 <Main />
+                    <br />
+                <Footer />
             </>
         );
     }
